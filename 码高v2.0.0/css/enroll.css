@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+a {
+    text-decoration: none
+}
+
+input {
+    outline-color: #408ce0;
+    border: 1px solid #eee;
+}
+
+
+/* 注册表头 */
+
+#z-enroll {
+    width: 100%;
+    height: 2.2rem;
+    background: #408ce0;
+    position: relative;
+}
+
+#z-enroll a img {
+    top: 8px;
+    position: absolute;
+    width: 1.35rem;
+}
+
+#z-enroll p {
+    color: #fff;
+    font-size: .85rem;
+    line-height: 2.2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* 注册表头 */
+
+
+/* 注册填写内容 */
+
+#z-zc {
+    width: 100%;
+}
+
+#z-zc input {
+    font-size: .63rem;
+}
+
+#z-zc .z-number {
+    width: 90%;
+    height: 30px;
+    margin: 5% 0 0 4%;
+    padding: 0 0 0 10px;
+    -webkit-appearance: none;
+    
+
+
+
+}
+
+#z-zc .z-yzm {
+    width: 63%;
+    height: 30px;
+    margin: 5% 0 0 4%;
+    padding: 0 0 0 10px;
+    -webkit-appearance: none;
+    
+}
+
+
+/* 验证码 */
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    #z-zc a img {
+        width: 98px;
+        height: 35px;
+        vertical-align: middle;
+    }
+    #z-zc .z-yzm {
+        width: 80%;
+        height: 30px;
+        margin: 5% 0 0 4%;
+        padding: 0 0 0 10px;
+        -webkit-appearance: none;
+    
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 415px) {
+    #z-zc a img {
+        width: 73px;
+        height: 35px;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+    #z-zc a img {
+        width: 73px;
+        height: 35px;
+        vertical-align: middle;
+    }
+    #z-zc .z-yzm {
+        width: 71%;
+        height: 30px;
+        margin: 5% 0 0 4%;
+        padding: 0 0 0 10px;
+        -webkit-appearance: none;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 360px) {
+    #z-zc a img {
+        width: 81px;
+        height: 35px;
+        vertical-align: middle;
+    }
+    #z-zc .z-yzm {
+        width: 67%;
+        height: 30px;
+        margin: 5% 0 0 4%;
+        padding: 0 0 0 10px;
+        -webkit-appearance: none;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 320px) {
+    #z-zc a img {
+        width: 81px;
+        height: 35px;
+        vertical-align: middle;
+    }
+    #z-zc .z-yzm {
+        width: 66%;
+        height: 30px;
+        margin: 5% 0 0 4%;
+        padding: 0 0 0 10px;
+        -webkit-appearance: none;
+    
+    }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 300px) {
+    #z-zc a img {
+        width: 81px;
+        height: 35px;
+        vertical-align: middle;
+    }
+    #z-zc .z-yzm {
+        width: 63%;
+        height: 30px;
+        margin: 5% 0 0 4%;
+        padding: 0 0 0 10px;
+        -webkit-appearance: none;
+    }
+}
+
+
+/* 验证码 */
+
+#z-zc .z-password {
+    width: 90%;
+    height: 30px;
+    margin: 5% 0 0 4%;
+    padding: 0 0 0 10px;
+    -webkit-appearance: none;
+}
+
+
+/* 我已阅读 */
+
+.z-yd {
+    width: 70%;
+    height: 30px;
+    margin: 10px auto;
+    font-size: .5rem;
+}
+
+.z-yd input {
+    vertical-align: middle;
+}
+
+#z-qr {
+    width: 80%;
+    height: 35px;
+    background: #408ce0;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#z-qr a {
+    line-height: 35px;
+    color: #fff;
+}
+
+#z-fgx {
+    text-align: center;
+    color: #666;
+    font-size: .5rem;
+}
+
+
+
+.content .z-db{
+    width: 100%;
+    
+    padding: 0rem 4rem;
+
+}
+.content .z-db .z-dba{
+    width: 100%;
+    
+    
+}
+.content .z-db .z-dba>div{
+    width: 33.333%;
+    
+
+    float: left;
+    padding: .3rem;
+    text-align: center;
+    font-size: .5rem;
+    
+}
+.content .z-db .z-dba img{
+    display: block;
+    margin: 0 auto;
+}

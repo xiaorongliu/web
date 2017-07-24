@@ -1,0 +1,101 @@
+.content {
+  margin: .2rem 0rem 0rem 0rem;
+}
+
+.page .content .content-block .tab-link {
+  font-size: .6rem;
+  width: 6.65rem;
+}
+
+.content .z-button .buttons-row .z-a {
+  z-index: 1;
+}
+
+.content .z-button .buttons-row .z-b {
+  z-index: 1;
+}
+
+.page .content .z-button {
+  width: 14rem;
+  margin: 0 auto;
+}
+
+.page .content .z-dd .z-mdd {
+  font-size: .6rem;
+  color: #333;
+  text-align: center;
+}
+
+.content .z-dd #tab1 .content-block .z-card {
+  width: 16.45rem;
+  margin: 0 auto;
+}
+
+.content .z-dd #tab1 .content-block .z-card .card-header {
+  background: #408ce1;
+  color: #fff;
+  height: 40px;
+  margin: 1rem auto;
+}
+
+.content .z-dd #tab1 .content-block .z-card .card-header .z-dfk {
+  font-size: 0.6rem;
+}
+
+.content .z-dd #tab1 .content-block .z-card .card-content .card-content-inner .z-p {
+  color: #000;
+  font-size: 0.6rem;
+  font-weight: 900;
+}
+
+.content .z-dd #tab1 .content-block .z-card .card-content .card-content-inner .z-wfk {
+  color: red;
+}
+
+.content .z-dd #tab1 .content-block .z-card .card-content .card-content-inner .z-ddlx {
+  color: #999;
+}
+
+.content .z-dd #tab1 .content-block .z-card .card-footer .z-sc {
+  border-right: 0.02rem solid #999;
+  width: 7rem;
+}
+
+.content .z-dd #tab1 .content-block .z-card .card-footer .z-jx {
+  width: 7rem;
+  color: red;
+}
+
+.content .z-dd #tab1 .content-block .z-card .card-footer a {
+  text-align: center;
+}
+
+.content .z-dd #tab2 .content-block .z-card {
+  width: 16.45rem;
+  margin: 0 auto;
+}
+
+.content .z-dd #tab2 .content-block .z-card .card-header {
+  background: #408ce1;
+  color: #fff;
+  height: 40px;
+  margin: 1rem auto;
+}
+
+.content .z-dd #tab2 .content-block .z-card .card-header .z-dfk {
+  font-size: 0.6rem;
+}
+
+.content .z-dd #tab2 .content-block .z-card .card-content .card-content-inner .z-p {
+  color: #000;
+  font-size: 0.6rem;
+  font-weight: 900;
+}
+
+.content .z-dd #tab2 .content-block .z-card .card-content .card-content-inner .z-wfk {
+  color: red;
+}
+
+.content .z-dd #tab2 .content-block .z-card .card-content .card-content-inner .z-ddlx {
+  color: #999;
+}

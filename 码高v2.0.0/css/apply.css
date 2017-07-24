@@ -1,0 +1,315 @@
+#applyContent {
+  top: 1.8rem;
+  padding: .625rem;
+  background: #f3f3f3;
+}
+
+.apply-item {
+  width: 100%;
+  background: #fff;
+  padding: .5rem;
+  border-radius: .3rem;
+  position: relative;
+}
+
+.apply-item .apply-title {
+  font-weight: 600;
+  overflow: hidden;
+  font-size: .8rem;
+}
+
+.apply-item .apply-people {
+  float: right;
+  font-size: .8rem;
+  font-weight: 500;
+  color: #787878;
+}
+
+.apply-people>i {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  border: 1px solid #ababab;
+  color: #717171;
+  text-align: center;
+}
+
+.apply-people>i:nth-child(2) {
+  border-right: 0;
+  /* border-left: 0; */
+}
+
+#ap-reduce {
+  background-color: #f7f7f7;
+  border-color: #ebebeb;
+  color: #ababab;
+}
+
+.apply-word {
+  font-size: .6rem;
+  font-weight: 500;
+  color: #787878;
+}
+
+.apply-word .price {
+  position: absolute;
+  bottom: .15rem;
+  right: 1.25rem;
+  color: #f00;
+  font-size: 0.9rem;
+}
+
+.apply-check {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: .8rem;
+  height: .8rem;
+  background: url(../images/apply_check.png) no-repeat center;
+  background-size: cover;
+}
+
+.sureMsg {
+  margin: .75rem 0;
+  width: 100%;
+  border: 1px solid #666;
+  border-radius: .3rem;
+  font-size: .8rem;
+  color: #666;
+  text-align: center;
+  padding: 0 .45rem;
+}
+
+.sureMsg .sure-name {
+  float: left;
+}
+
+.sureMsg .sure-sure {
+  float: right;
+}
+
+.sureMsg .sure-name-sex {
+  display: inline-block;
+  width: .9rem;
+  height: .9rem;
+  line-height: .9rem;
+  border: 1px solid #666;
+  border-radius: 50%;
+  font-size: 0.7rem;
+}
+
+.sureMsg .sure-sure-gou,
+.sureMsg .sure-sure-cha {
+  display: inline-block;
+  width: .9rem;
+  height: .9rem;
+  margin-top: .1rem;
+  background: url(../images/apply_check.png) no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.sureMsg .sure-sure-cha {
+  background: url(../images/close-fill_03.png) no-repeat center;
+  border: 1px solid #666;
+  border-radius: 50%;
+}
+
+.studentMsg,
+.applyContacts,
+.applyRemark {
+  width: 100%;
+  margin: .5rem 0;
+}
+
+.sureMsg {
+  display: none;
+}
+
+.studentMsg .buttons-tab,
+.applyContacts>p,
+.applyRemark>p {
+  color: #408ce1;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.studentMsg .buttons-tab {
+  background-color: #f3f3f3
+}
+
+.studentMsg .buttons-tab>a {
+  width: 30%;
+  float: left;
+  color: #3fdbe3;
+  font-size: .75rem;
+  font-weight: 600;
+  height: 1rem;
+  line-height: 1rem;
+}
+
+.studentMsg .buttons-tab>.active {
+  color: #408ce1
+}
+
+.studentMsg .buttons-tab>.hidden {
+  display: none;
+}
+
+.studentMsg .formMsg>p,
+.applyContacts>.formMsg>p {
+  background: #fff;
+  font-size: .8rem;
+  border: 1px solid #d1d1d1;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  box-sizing: border-box;
+}
+
+.studentMsg .formMsg>p:nth-child(2),
+.studentMsg .formMsg>p:nth-child(3),
+.studentMsg .formMsg>p:nth-child(4) {
+  position: relative;
+}
+
+.studentMsg .formMsg>p>.icon-right {
+  position: absolute;
+  right: 0;
+  width: 1rem;
+}
+
+.studentMsg .formMsg>p:nth-child(2),
+.studentMsg .formMsg>p:nth-child(4),
+.applyContacts>div>p:nth-child(2) {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.studentMsg .formMsg>p>span,
+.applyContacts>div>p>span {
+  display: inline-block;
+  text-align: center;
+  width: 4.5rem;
+  color: #333;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.studentMsg .formMsg>p>input,
+.applyContacts>div>p>input {
+  width: 8.5rem;
+  border: 0;
+  outline: 0;
+  font-size: .8rem;
+}
+
+.studentMsg .select,
+.applyContacts .select {
+  width: 8.5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font-size: .8rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  background: #fff;
+}
+
+.studentMsg .select>option,
+.applyContacts .select>option {
+  height: 1.8rem;
+  line-height: 1.8rem;
+  background: #fff;
+}
+
+.applySure {
+  width: 4rem;
+  height: 1rem;
+  margin: 0 auto;
+  font-size: .6rem;
+}
+
+.applyRemark>textarea {
+  width: 100%;
+  height: 3rem;
+  resize: none;
+  font-size: .6rem;
+}
+
+.applyAgree {
+  font-size: .6rem;
+  margin-bottom: 3rem;
+  padding-left: .7rem;
+  /* height: .9rem; */
+  /* line-height: .9rem; */
+}
+
+.applyAgree>a {
+  color: #408ce1
+}
+
+.applyAgree>input {
+  display: none;
+}
+
+.applyAgree>label {
+  position: relative;
+}
+
+.applyAgree>input[type=checkbox]:checked+label::after {
+  position: absolute;
+  top: 0;
+  left: -.7rem;
+  width: .6rem;
+  height: .6rem;
+  background: url(../images/readandsure.png) no-repeat center;
+  content: "";
+}
+
+.applyAgree>label::before {
+  position: absolute;
+  top: 0;
+  left: -.7rem;
+  width: .6rem;
+  height: .6rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  content: "";
+}
+
+.applyApply {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1000;
+}
+
+.applyApply>div {
+  float: left;
+  width: 50%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  background: orange;
+  font-size: .8rem;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+}
+
+.applyApply .total-value {
+  background-color: #f1f1f1;
+}
+
+.applyApply .apply-Pay {
+  font-weight: 600;
+  color: #fff;
+  background-color: #64a1e5
+}
+
+.applyApply .total-value>span {
+  color: red
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page .z-t {
+    background: #408ce0;
+    color: #fff;
+    font-size: .85rem;
+}
+
+.page .z-left {
+    border: 0;
+}
+
+.page .z-right {
+    color: #fff;
+    border: 0;
+    font-size: .85rem;
+}
+
+.page .z-left .z-img {
+    margin: -11% 0% 0% -100%;
+    width: 1.63rem;
+}
+
+.content .z-one {
+    width: 90%;
+    margin-left: .72rem;
+}
+.content .z-one .item-inner .item-title{
+    font-size: .63rem;
+}
+.content ul {
+    background: 0;
+}
+
+.content li {
+    background: #fff;
+}
+
+.content .z-li {
+    margin-top: .72rem;
+}
+
+.item-content .item-inner .item-input .z-s {
+       font-size: .63rem;
+}
+
+.item-content .item-inner .item-input .z-m {
+        font-size: .63rem;
+}
+
+.content .z-jz {
+    width: 14rem;
+    margin: 0 auto;
+  color: #afafaf;
+    font-size:  .5rem;
+}
+.content .z-jz input{
+    vertical-align: middle;
+}
+.content .z-jz span {
+    font-size: .5rem;
+    color: #afafaf;
+
+ 
+}
+
+.content .z-jz .z-right {
+    float: right;
+    color: #afafaf;
+}
+
+.content .z-hz {
+    text-align: center;
+    font-size: .5rem;
+    color: #afafaf;
+    margin-top: 2rem;
+}
+
+.content .z-db{
+    width: 100%;
+    
+    padding: 0rem 4rem;
+
+}
+.content .z-db .z-dba{
+    width: 100%;
+    
+    
+}
+.content .z-db .z-dba>div{
+    width: 33.333%;
+    
+
+    float: left;
+    padding: .3rem;
+    text-align: center;
+    font-size: .5rem;
+    
+}
+.content .z-db .z-dba img{
+    display: block;
+    margin: 0 auto;
+}
+
+#z-qr {
+    width: 16.3rem;
+    height: 45px;
+    background: #408ce0;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#z-qr a {
+    line-height: 45px;
+    color: #fff;
+}
